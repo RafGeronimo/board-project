@@ -1,0 +1,13 @@
+TDD - Test Driven development:
+    - A ideia do TDD é que possamos construír softwares guiados por testes, estabelecendo objetivos claros;
+    - TDD possuí regras:
+        1. Não escreva nenhum código até ter um teste que simule/detecte uma falha específica;
+        2. Não escreva mais testes do que o suficiente para detectar uma falha
+        3. Escreva somente o suficiente para fazer o teste passar
+
+
+----------------------------
+JEST
+
+- Perceba que no Jest precisamos passar uma arrow function que lance a exception dentro do "expect"
+- Sem a arrow function a exception quebraria o flixo do código antes de executar o toThrow do Jest
